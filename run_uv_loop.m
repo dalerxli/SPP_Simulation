@@ -2,8 +2,9 @@
 
 % This script solves U_t = F(U,t)  using a pseudospectral method.
 %==========================================================================
-ord = 3; % n = 2^ii  space grid points, increase for more accuracy
-n_loop = 3; %how many loops do you want to run over?
+% n = 2^ord  spatial grid, simulation converges near ord = 16
+ord = 10; 
+n_loop = 1; %how many loops do you want to run over?
 
 
 
