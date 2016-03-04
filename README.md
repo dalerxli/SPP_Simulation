@@ -4,7 +4,7 @@ Numerical Simulation of Surface Plasmon Polaritons using spectral and time stepp
 
 Main Scripts
 
-run_uv_loop.m - Main file, run this to find solution to PDE with initial defined within
+run_uv_loop.m - Main file, run this to find solution to PDE
 
 f_uv.m - Spectral method redues PDE to ODE of form u_t = f(u,t), f_uv.m gives right hand side
 
