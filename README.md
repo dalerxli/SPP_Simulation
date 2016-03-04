@@ -4,9 +4,11 @@ Numerical Simulation of Surface Plasmon Polaritons using spectral and time stepp
 
 Main Scripts
 
-run_uv_loop.m - main file, run this to find solution to PDE with initial defined within
+run_uv_loop.m - Main file, run this to find solution to PDE with initial defined within
 
-f_uv.m - spectral method redues PDE to ODE of form u_t = f(u,t)
+f_uv.m - Spectral method redues PDE to ODE of form u_t = f(u,t), f_uv.m gives right hand side
 
-ode4_step.m - implementation of runge-kutta 4th order to solve ODE
+ode4_step.m - Implementation of 4th order Runge-Kutta to solve ODE
 
+
+Remaining scripts are implementations of spatial derivatives and operators
